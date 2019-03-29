@@ -17,7 +17,7 @@ public class Runner {
             System.out.println("Which column would you like to put your piece?");
             int selection = sc.nextInt();
             int col = -1;
-            if(selection<=8){
+            if(selection<=7){
                 col = selection;
                 b.handleMove(whichPlayer, col);
                 if(whichPlayer.equals("1")){

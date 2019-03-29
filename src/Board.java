@@ -31,7 +31,6 @@ public class Board {
             }
             System.out.print("\n");
         }
-        System.out.println(grid.length);
     }
 
 
